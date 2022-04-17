@@ -13,6 +13,7 @@ const Register = () => {
   const navigateLogin = () => {
     navigate("/login");
   };
+
   if (user) {
     navigate("/home");
   }
@@ -42,6 +43,7 @@ const Register = () => {
           id=""
           placeholder="Password"
         />
+        {user ? "" : error?.message}
         <input type="submit" value="Register" />
       </form>
       <p>

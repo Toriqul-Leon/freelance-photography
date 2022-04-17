@@ -4,6 +4,7 @@ import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import "./Login.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {
   const emailRef = useRef("");
@@ -53,8 +54,8 @@ const Login = () => {
             placeholder="Password"
           />
         </Form.Group>
-
-        <Button variant="primary w-75 mx-auto d-block my-2 p-2 " type="submit">
+        {!user ? error?.message : ""}
+        <Button variant="primary w-100 mx-auto d-block my-2 p-2 " type="submit">
           Login
         </Button>
       </Form>
@@ -68,6 +69,7 @@ const Login = () => {
           Please Register
         </span>
       </p>
+      <SocialLogin></SocialLogin>
     </div>
   );
 };

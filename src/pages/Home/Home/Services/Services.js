@@ -21,6 +21,8 @@ const Services = () => {
                     <Card.Img variant="top" src={service.image} />
                     <Card.Body>
                       <Card.Title>{service.service}</Card.Title>
+                      <strong>Cost: ${service.cost}</strong>
+                      <Card.Text>{service.description}</Card.Text>
                       <div className="text-center ">
                         <Button
                           as={Link}
