@@ -1,0 +1,21 @@
+.register-form input {
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.register-form {
+  min-height: 100vh;
+  margin: 20px auto;
+  width: 50%;
+}
+.register-form h2 {
+  text-align: center;
+}
+.register-form p {
+  display: flex;
+  justify-content: center;
+}
