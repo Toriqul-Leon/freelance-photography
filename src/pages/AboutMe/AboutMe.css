@@ -1,0 +1,27 @@
+.aboutMe-container {
+  background-color: #7b6060;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+.aboutMe-container img {
+  width: 200px;
+  border-radius: 50%;
+}
+.aboutMe-container p {
+  width: 350px;
+  text-align: justify;
+  font-size: 17px;
+  padding: 10px;
+  margin: 10px;
+}
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 50px;
+  background: #7b6060;
+  box-shadow: 20px 20px 60px #695252, -20px -20px 60px #8d6e6e;
+}

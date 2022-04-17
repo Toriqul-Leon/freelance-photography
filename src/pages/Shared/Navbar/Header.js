@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -8,19 +8,30 @@ const Header = () => {
     <div>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand as={Link} to={"/home"} href="#home">
+          <Navbar.Brand
+            className="text-black fs-3 fw-bold "
+            as={Link}
+            to={"/home"}
+          >
             Leon's Photography
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav.Link className="text-black fw-bold" as={Link} to={"/home"}>
-              Home
-            </Nav.Link>
-            <Nav className="ms-auto">
-              <Nav.Link as={Link} to={"/login"} href="#home">
+            <Nav>
+              <Nav.Link className=" fw-bold" as={Link} to={"/home"}>
+                Home
+              </Nav.Link>
+            </Nav>
+            <Nav className="ms-auto text-black fw-bold">
+              <Nav.Link as={Link} to={"/login"}>
                 Login
               </Nav.Link>
-              <Nav.Link href="#link">About</Nav.Link>
+              <Nav.Link as={Link} to={"/blogs"}>
+                Blogs
+              </Nav.Link>
+              <Nav.Link as={Link} to={"/about"}>
+                About Me
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

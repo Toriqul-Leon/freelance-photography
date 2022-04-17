@@ -7,9 +7,12 @@ import NotFound from "./pages/Shared/NotFound/NotFound";
 import Home from "./pages/Home/Home/Home/Home";
 import Checkout from "./pages/Checkout/Checkout";
 import Footer from "./pages/Shared/Footer/Footer";
-import Login from "./Login/Login/Login";
-import Register from "./Login/Register/Register";
-import RequireAuth from "./Login/Login/RequireAuth/RequireAuth";
+
+import Blogs from "./pages/Blogs/Blogs";
+import Login from "./pages/Login/Login/Login";
+import Register from "./pages/Login/Register/Register";
+import RequireAuth from "./pages/Login/Login/RequireAuth/RequireAuth";
+import AboutMe from "./pages/AboutMe/AboutMe";
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/about" element={<AboutMe />} />
         <Route
           path="/checkout"
           element={

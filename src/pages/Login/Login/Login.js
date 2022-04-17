@@ -3,8 +3,9 @@ import { Button, Form } from "react-bootstrap";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import "./Login.css";
 import { useLocation, useNavigate } from "react-router-dom";
-import auth from "../../firebase.init";
+
 import SocialLogin from "../SocialLogin/SocialLogin";
+import auth from "../../../firebase.init";
 
 const Login = () => {
   const emailRef = useRef("");
