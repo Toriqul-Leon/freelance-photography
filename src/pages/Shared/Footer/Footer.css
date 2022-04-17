@@ -1,0 +1,11 @@
+.footer-container {
+  background-color: red;
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+}

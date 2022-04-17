@@ -17,7 +17,7 @@ const Services = () => {
             <Row xs={1} md={1} className="g-4">
               {Array.from({ length: 1 }).map((_, idx) => (
                 <Col>
-                  <Card>
+                  <Card className="text-center">
                     <Card.Img variant="top" src={service.image} />
                     <Card.Body>
                       <Card.Title>{service.service}</Card.Title>
@@ -25,7 +25,7 @@ const Services = () => {
                         <Button
                           as={Link}
                           to={"/checkout"}
-                          className="btn btn-primary w-75 "
+                          className="btn btn-primary w-75  "
                         >
                           Checkout
                         </Button>
