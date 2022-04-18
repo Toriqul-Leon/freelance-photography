@@ -1,12 +1,25 @@
 # Leon's Photography
 
-Live Website: [Click Here](https://github.com/facebook/create-react-app).
+Live Website: [Click Here](https://hire-me-photography.web.app/).
 
-- George Washington
-- John Adams
-- Thomas Jefferson
+- Total pages
 
-Used Framework/Library
+  - Home
+  - LogIn
+  - Register
+  - Blogs
+  - About Me
+
+- Universal Component
+
+  - Navbar & Footer
+
+- In Home page (With Navbar and Footer)
+
+  - Services
+  - QnA
+
+  Used Framework/Library
 
 - React
 - Bootstrap

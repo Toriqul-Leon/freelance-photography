@@ -18,7 +18,7 @@ const QnA = () => {
                 <strong>+88017035844XX </strong>(9:00 AM to 6:00 PM )
                 <br />
                 Email:
-                <strong> leonphotography@gmail.com </strong>(24/
+                <strong> leonphotography@gmail.com </strong>(24/7)
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
