@@ -46,7 +46,13 @@ const QnA = () => {
         </div>
         <div className="col-lg-5 col-md-6 col-12 order-first order-lg-last order-md-last order-sm-last">
           <div>
-            <img src={question} width={"500px"} height={"300px"} alt="" />
+            <img
+              className="img-fluid"
+              src={question}
+              width={"500px"}
+              height={"300px"}
+              alt=""
+            />
           </div>
         </div>
       </div>
