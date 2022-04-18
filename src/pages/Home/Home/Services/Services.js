@@ -19,7 +19,7 @@ const Services = () => {
                 <Col>
                   <Card className="text-center">
                     <Card.Img variant="top" src={service.image} />
-                    <Card.Body>
+                    <Card.Body key={service._id}>
                       <Card.Title>{service.service}</Card.Title>
                       <strong>Cost: ${service.cost}</strong>
                       <Card.Text>{service.description}</Card.Text>
@@ -27,7 +27,7 @@ const Services = () => {
                         <Button
                           as={Link}
                           to={"/checkout"}
-                          className="btn btn-primary w-75  "
+                          className="btn btn-primary w-75 d-block ms-auto me-auto"
                         >
                           Checkout
                         </Button>

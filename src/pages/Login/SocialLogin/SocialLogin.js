@@ -10,7 +10,7 @@ const SocialLogin = () => {
 
   if (user) {
     navigate("/home");
-  }
+   }
   return (
     <div>
       <small className="text-danger">{error ? error?.message : ""}</small>

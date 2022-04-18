@@ -3,7 +3,7 @@ import "./Checkout.css";
 const Checkout = () => {
   return (
     <div className="checkout-container">
-      <h1>Checkout</h1>
+      <h1 className="text-center">Welcome to Checkout</h1>
     </div>
   );
 };

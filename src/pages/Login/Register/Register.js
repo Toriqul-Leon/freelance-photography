@@ -49,7 +49,7 @@ const Register = () => {
       <p>
         Already Have an Account?{" "}
         <span
-          className="text-danger label "
+          className="text-primary label "
           role="button"
           onClick={navigateLogin}
         >

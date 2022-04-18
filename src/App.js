@@ -5,14 +5,16 @@ import "./App.css";
 import Header from "./pages/Shared/Navbar/Header";
 import NotFound from "./pages/Shared/NotFound/NotFound";
 import Home from "./pages/Home/Home/Home/Home";
-import Checkout from "./pages/Checkout/Checkout";
+
 import Footer from "./pages/Shared/Footer/Footer";
 
 import Blogs from "./pages/Blogs/Blogs";
 import Login from "./pages/Login/Login/Login";
 import Register from "./pages/Login/Register/Register";
-import RequireAuth from "./pages/Login/Login/RequireAuth/RequireAuth";
+
 import AboutMe from "./pages/AboutMe/AboutMe";
+import RequireAuth from "./pages/Login/Login/RequireAuth/RequireAuth";
+import Checkout from "./pages/Checkout/Checkout";
 
 function App() {
   return (
@@ -29,10 +31,11 @@ function App() {
           path="/checkout"
           element={
             <RequireAuth>
-              <Checkout />
+              <Checkout></Checkout>
             </RequireAuth>
           }
         />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer></Footer>
