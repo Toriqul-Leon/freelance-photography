@@ -33,12 +33,14 @@ const Header = () => {
             </Nav>
             <Nav className="ms-auto text-black fw-bold">
               {user ? (
-                <button
-                  onClick={handleSignOut}
-                  className={"btn btn-link text-decoration-none"}
-                >
-                  Sign Out
-                </button>
+                <Nav.Link as={Link} to={"/login"}>
+                  <button
+                    onClick={handleSignOut}
+                    className={"btn btn-link text-decoration-none"}
+                  >
+                    Sign Out
+                  </button>
+                </Nav.Link>
               ) : (
                 <Nav.Link as={Link} to={"/login"}>
                   Login
