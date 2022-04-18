@@ -1,3 +1,15 @@
-# Getting Started with Create React App
+# Leon's Photography
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Website: [Click Here](https://github.com/facebook/create-react-app).
+
+- George Washington
+- John Adams
+- Thomas Jefferson
+
+Used Framework/Library
+
+- React
+- Bootstrap
+- React Router
+- Firebase
+- React Toastify
