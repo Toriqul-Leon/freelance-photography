@@ -1,6 +1,6 @@
 # Leon's Photography
 
-Live Website: [Click Here](https://hire-me-photography.web.app/).
+<!-- Live Website: [Click Here](https://hire-me-photography.web.app/). -->
 
 - Total pages
 
